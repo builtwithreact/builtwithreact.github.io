@@ -4,9 +4,11 @@ import PropTypes from 'prop-types';
 class ReactNative extends Component {
     render() {
         return (
-            <div className="ReactNative">
-                ReactNative
-            </div>
+            <main className="ReactNative">
+                <div className="container App__Body">
+                    ReactNative
+                </div>
+            </main>
         );
     }
 }

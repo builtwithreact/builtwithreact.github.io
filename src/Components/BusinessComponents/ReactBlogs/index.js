@@ -4,9 +4,11 @@ import PropTypes from 'prop-types';
 class ReactBlogs extends Component {
     render() {
         return (
-            <div className="ReactBlogs">
-                ReactBlogs
-            </div>
+            <main className="ReactBlogs">
+                <div className="container App__Body">
+                    ReactBlogs
+                </div>
+            </main>
         );
     }
 }

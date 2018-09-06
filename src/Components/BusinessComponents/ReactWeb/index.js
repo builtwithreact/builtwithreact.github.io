@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import TileContainer from './../../BaseComponents/TileContainer';
+import SubHeader from './../../BaseComponents/SubHeader'
 import Loader from './../../BaseComponents/Loader';
 import Tile from './../../BaseComponents/Tile';
 import './ReactWeb.scss';
@@ -19,12 +20,15 @@ export default class ReactWeb extends Component {
 
     render() {
         return (
-            <div className="ReactWeb">
-                <TileContainer />
+            <main className="ReactWeb">
+                <SubHeader />
+                <div className="container App__Body">
+                    <TileContainer />
+                </div>
                 {/* {this.props.showLoaderOnReactWebPage ? <Loader /> : 
                      tiles={this.props.reactWebPageData} 
                     updateLikesReactWeb={this.props.updateLikesReactWeb} />} */}
-            </div>
+            </main>
         );
     }
 }
