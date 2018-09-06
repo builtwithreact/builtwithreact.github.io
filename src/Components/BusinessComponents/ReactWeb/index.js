@@ -13,11 +13,11 @@ export default class ReactWeb extends Component {
         super(props)
     };
 
-    componentDidMount(){
+    componentDidMount() {
         // this.props.fetchReactWebData();
     };
 
-    render() {        
+    render() {
         return (
             <div className="ReactWeb">
                 <TileContainer />
