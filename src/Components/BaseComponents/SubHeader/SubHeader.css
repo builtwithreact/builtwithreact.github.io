@@ -1,15 +1,73 @@
-.Heading-Container {
-  height: 200px;
+@import url("https://fonts.googleapis.com/css?family=Courgette");
+.HeadingContainer {
+  font-family: Courgette, sans-serif;
+  height: calc(100vh - 60px);
   background: #1c1d21;
   width: 100%;
   color: #fff; }
-  .Heading-Container .Heading {
+  .HeadingContainer .Heading {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%; }
-  .Heading-Container .Tagline {
-    font-size: 30px; }
-  .Heading-Container .Sub-Tagline {
-    font-size: 25px; }
+  .HeadingContainer .Tagline {
+    margin-bottom: 15px;
+    font-size: 80px;
+    line-height: 1; }
+  .HeadingContainer .SubTagline {
+    font-size: 40px;
+    line-height: 1; }
+
+.SubTagline__Item {
+  perspective: 300px;
+  position: relative;
+  display: inline-block;
+  width: 105px;
+  text-align: center; }
+  .SubTagline__Item span {
+    opacity: 0;
+    transform-origin: 50% 100%;
+    transform: rotateX(180deg);
+    color: #4caf4f;
+    position: absolute;
+    white-space: nowrap;
+    left: 0;
+    top: -34px;
+    width: 100%;
+    text-align: center; }
+    .SubTagline__Item span.is-visible {
+      opacity: 1;
+      transform: rotateX(0deg);
+      -webkit-animation: cd-rotate-1-in 1.2s;
+      -moz-animation: cd-rotate-1-in 1.2s;
+      animation: cd-rotate-1-in 1.2s; }
+    .SubTagline__Item span.is-hidden {
+      transform: rotateX(180deg);
+      animation: cd-rotate-1-out 1.2s; }
+
+@keyframes cd-rotate-1-in {
+  0% {
+    transform: rotateX(180deg);
+    opacity: 0; }
+  35% {
+    transform: rotateX(120deg);
+    opacity: 0; }
+  65% {
+    opacity: 0; }
+  100% {
+    transform: rotateX(360deg);
+    opacity: 1; } }
+
+@keyframes cd-rotate-1-out {
+  0% {
+    transform: rotateX(0deg);
+    opacity: 1; }
+  35% {
+    transform: rotateX(-40deg);
+    opacity: 1; }
+  65% {
+    opacity: 0; }
+  100% {
+    transform: rotateX(180deg);
+    opacity: 0; } }
