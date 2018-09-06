@@ -1,10 +1,13 @@
+
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 body {
   background-color: #f7f7f7;
@@ -16,23 +19,28 @@ body {
   -webkit-text-size-adjust: 100%;
   line-height: 1.5;
   font-size: 16px;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+}
+
 
 button {
   appearance: none;
   background: none;
   border: none;
   cursor: pointer;
-  font-family: inherit; }
+  font-family: inherit;
+}
 
 ul {
   margin: 0;
   padding: 0;
-  list-style: none; }
+  list-style: none;
+}
 
 a {
   display: inline-block;
   color: inherit;
   font-family: inherit;
   text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer;
+}
