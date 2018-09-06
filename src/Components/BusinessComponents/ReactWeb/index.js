@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-//import PropTypes from 'prop-types';
-//import classnames from 'classnames';
-
-// import Button from './../../../BaseComponents/Button';
+import PropTypes from 'prop-types';
 import TileContainer from './../../BaseComponents/TileContainer';
 import Loader from './../../BaseComponents/Loader';
+import Tile from './../../BaseComponents/Tile';
 import './ReactWeb.scss';
 
 const propTypes = {}
@@ -16,15 +14,16 @@ export default class ReactWeb extends Component {
     };
 
     componentDidMount(){
-        this.props.fetchReactWebData();
+        // this.props.fetchReactWebData();
     };
 
     render() {        
         return (
             <div className="ReactWeb">
-                {this.props.showLoaderOnReactWebPage ? <Loader /> : 
-                    <TileContainer tiles={this.props.reactWebPageData} 
-                    updateLikesReactWeb={this.props.updateLikesReactWeb} />}
+                <TileContainer />
+                {/* {this.props.showLoaderOnReactWebPage ? <Loader /> : 
+                     tiles={this.props.reactWebPageData} 
+                    updateLikesReactWeb={this.props.updateLikesReactWeb} />} */}
             </div>
         );
     }

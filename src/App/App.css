@@ -1,3 +1,7 @@
+.App .App__Body {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+
 .container {
   max-width: 1200px;
   margin: 0 auto; }

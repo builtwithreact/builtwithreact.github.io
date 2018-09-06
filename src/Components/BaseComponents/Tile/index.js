@@ -9,23 +9,13 @@ const defaultProps = {}
 export default class Tile extends Component {
     constructor(props) {
         super(props);
-        this.handleClickLikeBtn = this.handleClickLikeBtn.bind(this);
     };
-
-    handleClickLikeBtn(e) {
-        let existingLikes = +e.target.dataset.likes;
-        let updateLikes = {
-            likes: existingLikes + 1
-        }
-        this.props.updateLikesReactWeb("-KyiruQzNj7F9Gu0SUz_", updateLikes)
-    }
 
     render() {
         return (
             <div className="Tile">
                 <div className="Tile-Image" style={{ backgroundImage: "" }}>
                     <img src="http://madewithreact.com/content/images/2017/03/react-logo-generator-1.png" />
-                    <img src="https://raw.githubusercontent.com/pankajladhar/react-front-cli/master/src/images/createcomponent.jpg" />
                 </div>
                 <div className="Tile-Details">
                     <hr className="divider" />
@@ -48,10 +38,10 @@ export default class Tile extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="Tile-CTA">
+                {/* <div className="Tile-CTA">
                     <button data-likes={this.props.likes} onClick={this.handleClickLikeBtn}>&hearts; {this.props.likes || 0}</button>
                     <button>&#128065; {this.props.views || 0}</button>
-                </div>
+                </div> */}
             </div>
         );
     }

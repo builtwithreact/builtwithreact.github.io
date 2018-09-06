@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Link, BrowserRouter, Switch, BrowserRouter as Router } from 'react-router-dom';
 import Header from './../Components/BaseComponents/Header';
 import SubHeader from './../Components/BaseComponents/SubHeader';
+import ReactWeb from './../Components/BusinessComponents/ReactWeb';
 
 import './App.css';
 
@@ -11,11 +12,10 @@ const App = () => (
     <div className="App">
       <Header />
       <SubHeader />
-      <div style={{ height: 1200 }}></div>
-      {/* <main className="container">
-            <Route exact path="/" component={Containers.ReactWebPage} />
-            <Route path="/ReactWeb" component={Containers.ReactWebPage} />
-          </main> */}
+      <main className="App__Body container">
+        <Route exact path="/" component={ReactWeb} />
+        <Route path="/ReactWeb" component={ReactWeb} />
+      </main>
     </div>
   </Router>
 )
