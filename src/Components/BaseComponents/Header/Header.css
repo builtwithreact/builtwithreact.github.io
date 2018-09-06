@@ -6,12 +6,13 @@
     justify-content: space-between;
     align-items: center; }
   .HeaderContainer .Logo {
-    color: #4caf4f;
+    color: #fff;
     display: flex;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
-    align-items: center; }
+    align-items: center;
+    font-family: Courgette, sans-serif; }
     .HeaderContainer .Logo img {
       width: 70px;
       height: 60px; }
@@ -27,6 +28,9 @@
   .Navigation ul .Navigation-Link {
     color: #fff;
     text-decoration: none;
-    padding: 20px 10px; }
+    padding: 20px 10px;
+    font-family: Courgette, sans-serif;
+    font-size: 18px;
+    line-height: 1; }
     .Navigation ul .Navigation-Link:hover {
       color: #4caf4f; }
