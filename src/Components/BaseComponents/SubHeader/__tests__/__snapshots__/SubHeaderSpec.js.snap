@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubHeader renders correctly 1`] = `
+<div
+  className="Heading-Container"
+>
+  <div
+    className="Heading container"
+  >
+    <p
+      className="Tagline"
+    >
+      One place to showcase your work
+    </p>
+    <p
+      className="Sub-Tagline Sub-Tagline-1"
+    >
+      done
+      <span
+        className="card"
+      >
+         using / for 
+      </span>
+      React / React Native
+    </p>
+    <div
+      className="Cta-Container"
+    >
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+      >
+        Submit Request
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+      >
+        Give Feedback
+      </button>
+    </div>
+  </div>
+</div>
+`;

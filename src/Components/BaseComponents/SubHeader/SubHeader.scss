@@ -1,0 +1,19 @@
+.Heading-Container {
+  height: 200px;
+  background: #1c1d21;
+  width: 100%;
+  color: #fff;
+  .Heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  .Tagline {
+    font-size: 30px;
+  }
+  .Sub-Tagline {
+    font-size: 25px;
+  }
+}

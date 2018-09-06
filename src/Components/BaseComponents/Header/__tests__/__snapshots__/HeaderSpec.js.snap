@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<div
+  className="HeaderContainer"
+>
+  <div
+    className="Header container"
+  >
+    <a
+      className="Logo"
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Built With React"
+        src="logo.svg"
+      />
+      <span>
+        Built with React
+      </span>
+    </a>
+    <nav
+      className="Navigation"
+    >
+      <ul>
+        <li
+          className="Navigation-Item"
+        >
+          <a
+            aria-current={false}
+            className="Navigation-Link"
+            href="/ReactWeb"
+            onClick={[Function]}
+            style={undefined}
+          >
+            Web
+          </a>
+        </li>
+        <li
+          className="Navigation-Item"
+        >
+          <a
+            aria-current={false}
+            className="Navigation-Link"
+            href="/ReactNative"
+            onClick={[Function]}
+            style={undefined}
+          >
+            React Native
+          </a>
+        </li>
+        <li
+          className="Navigation-Item"
+        >
+          <a
+            aria-current={false}
+            className="Navigation-Link"
+            href="/ReactBlogs"
+            onClick={[Function]}
+            style={undefined}
+          >
+            Blogs
+          </a>
+        </li>
+        <li
+          className="Navigation-Item"
+        >
+          <a
+            aria-current={false}
+            className="Navigation-Link"
+            href="/ReactTools"
+            onClick={[Function]}
+            style={undefined}
+          >
+            Tools
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;

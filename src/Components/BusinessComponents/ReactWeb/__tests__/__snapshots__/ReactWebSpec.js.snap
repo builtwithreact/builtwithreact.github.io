@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReactWeb should render correctly 1`] = `
+<div
+  className="ReactWeb"
+>
+  <div
+    className="TileContainer"
+  >
+    <div
+      className="Tile"
+    >
+      githubId : 
+      pankajladhar
+       
+      <br />
+      githubUrl : 
+       
+      <br />
+      longDesc : 
+       
+      <br />
+      name : 
+      React Logo Generator
+       
+      <br />
+      shortDesc : 
+      This is Play Area to Change to generate React Logo with different colors
+       
+      <br />
+      submissionDate : 
+      2017 Sept 15
+       
+      <br />
+      thumb : 
+      /projects/my-app/thumb
+       
+      <br />
+      twitterId : 
+      pankajladhar
+      <br />
+      <button
+        data-likes={undefined}
+        onClick={[Function]}
+      >
+        likes: 
+        0
+      </button>
+      <button>
+        Views: 
+        0
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ReactWeb should render only loader 1`] = `
+<div
+  className="ReactWeb"
+>
+  <div
+    className="Loader"
+  >
+    Loader ....
+  </div>
+</div>
+`;

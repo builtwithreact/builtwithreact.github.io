@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly if only mandatory props are passed 1`] = `
+<button
+  className=""
+  onClick={[Function]}
+  type="button"
+>
+  btn value
+</button>
+`;
+
+exports[`Button renders correctly if options props are also passed 1`] = `
+<button
+  className="btnclass"
+  onClick={[Function]}
+  type="button"
+>
+  btn value
+</button>
+`;
