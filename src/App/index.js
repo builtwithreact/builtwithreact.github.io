@@ -7,17 +7,17 @@ import './App.css';
 
 
 const App = () => (
-      <Router>
-        <div className="App">
-          <Header />
-          <SubHeader />
-          <div style={{height: 1200}}></div>
-          {/* <main className="container">
+  <Router>
+    <div className="App">
+      <Header />
+      <SubHeader />
+      <div style={{ height: 1200 }}></div>
+      {/* <main className="container">
             <Route exact path="/" component={Containers.ReactWebPage} />
             <Route path="/ReactWeb" component={Containers.ReactWebPage} />
           </main> */}
-        </div>
-      </Router>
+    </div>
+  </Router>
 )
 
 export default App;

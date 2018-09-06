@@ -2,6 +2,11 @@
   background-color: #1c1d21;
   height: 60px;
 
+  &.HeaderContainer__Sticky {
+    position: fixed;
+    width: 100%;
+  }
+
   .Header {
     display: flex;
     justify-content: space-between;

@@ -6,28 +6,32 @@ import logo from './../../../Assets/images/logo.svg';
 import './Header.css';
 
 class Header extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            stickyHeader : false
+        }
+    }
+
+    componentDidMount() {
+        document.addEventListener('scroll', (e)=>{
+            if(window.scrollY > 60) {
+                this.setState({stickyHeader: true});
+            } else {
+                this.setState({stickyHeader: false});
+            }
+        })
+    }
     render() {
         const navitems = [
-            {
-                "title": "Web",
-                "url": "ReactWeb"
-            },
-            {
-                "title": "React Native",
-                "url": "ReactNative"
-            },
-            {
-                "title": "Blogs",
-                "url": "ReactBlogs"
-            },
-            {
-                "title": "Tools",
-                "url": "ReactTools"
-            }
+            { "title": "Web", "url": "ReactWeb"},
+            { "title": "React Native", "url": "ReactNative"},
+            { "title": "Blogs", "url": "ReactBlogs"},
+            { "title": "Tools", "url": "ReactTools"}
         ]
 
         return (
-            <div className="HeaderContainer">
+            <div className={`HeaderContainer ${this.state.stickyHeader ? 'HeaderContainer__Sticky' : ''}`}>
                 <div className="Header container">
                     <Link to="/" className="Logo">
                         <img src={logo} alt="Built With React" />
