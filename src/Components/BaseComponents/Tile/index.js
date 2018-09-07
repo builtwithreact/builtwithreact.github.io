@@ -15,7 +15,7 @@ export default class Tile extends Component {
         return (
             <div className="Tile">
                 <div className="Tile-Image" style={{ backgroundImage: "" }}>
-                    <img src="http://madewithreact.com/content/images/2017/03/react-logo-generator-1.png" />
+                    <img src="https://madewithreact.com/content/images/2017/03/react-logo-generator-1.png" />
                 </div>
                 <div className="Tile-Details">
                     <hr className="divider" />
