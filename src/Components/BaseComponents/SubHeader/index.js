@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Button from './../Button';
+import { Link } from 'react-router-dom';
 
 import './SubHeader.css';
 
@@ -13,8 +14,7 @@ class SubHeader extends Component {
             SUBMIT_PROJECT_BTN_TITLE: "Submit Request",
             GIVE_FEEDBACK_BTN_TITLE: "Give Feedback"
         };
-        this.handleOnSubmitRequestClick = this.handleOnSubmitRequestClick.bind(this);
-        this.handleOnGiveFeedbackClick = this.handleOnGiveFeedbackClick.bind(this);
+
         setInterval(() => {
             this.setState({
                 isWordVisible: !this.state.isWordVisible
@@ -22,15 +22,6 @@ class SubHeader extends Component {
         }, 2500)
 
     }
-
-    handleOnSubmitRequestClick() {
-        return "handleOnSubmitRequestClick";
-    }
-
-    handleOnGiveFeedbackClick() {
-        return "handleOnGiveFeedbackClick";
-    }
-
 
     render() {
         return (
@@ -46,10 +37,8 @@ class SubHeader extends Component {
                         <span> React / React Native</span>
                     </div>
                     <div className="Heading__Cta">
-                        <Button value={this.CONSTANTS.SUBMIT_PROJECT_BTN_TITLE}
-                            handleOnClick={this.handleOnSubmitRequestClick} />
-                        <Button value={this.CONSTANTS.GIVE_FEEDBACK_BTN_TITLE}
-                            handleOnClick={this.handleOnGiveFeedbackClick} />
+                        <Link to="/SubmitRequest" className="Button">{this.CONSTANTS.SUBMIT_PROJECT_BTN_TITLE}</Link>
+                        <Link to="/Feedback" className="Button">{this.CONSTANTS.GIVE_FEEDBACK_BTN_TITLE}</Link>
                     </div>
                 </div>
             </div>
