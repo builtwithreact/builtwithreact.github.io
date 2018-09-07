@@ -27,7 +27,9 @@ class Header extends Component {
             { "title": "Web", "url": "ReactWeb" },
             { "title": "React Native", "url": "ReactNative" },
             { "title": "Blogs", "url": "ReactBlogs" },
-            { "title": "Tools", "url": "ReactTools" }
+            { "title": "Tools", "url": "ReactTools" },
+            { "title": "Request", "url": "SubmitRequest", "addSeperator" : true },
+            { "title": "Feedback", "url": "Feedback" }
         ]
 
         return (
@@ -42,7 +44,7 @@ class Header extends Component {
                             {
                                 navitems.map((item) => (
                                     <li className="Navigation-Item" key={`nav-${item.title.replace(" ", "-")}`}>
-                                        <NavLink className="Navigation-Link"
+                                        <NavLink className={`Navigation-Link ${item.addSeperator && 'Navigation-Link__Seprator'}`}
                                             activeStyle={{ color: "#4caf4f", borderBottom: "2px #4caf4f solid" }}
                                             to={`/${item.url}`}>
                                             {item.title}

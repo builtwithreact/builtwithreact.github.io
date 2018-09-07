@@ -42,12 +42,22 @@
     .Navigation-Link {
       color: #fff;
       text-decoration : none;
-      padding: 20px 10px;
+      padding: 20px 0px;
       font-family: Courgette, sans-serif;
       font-size: 18px;
       line-height: 1;
+      margin: 0 10px;
+      border-bottom: 2px #1c1d21 solid;
       &:hover {
         color: #4caf4f;
+      }
+
+      &.Navigation-Link__Seprator {
+        &::before {
+          content: '';
+          border-left: 1px #fff solid;
+          margin-right: 20px;
+        }
       }
     }
   }
