@@ -2,39 +2,52 @@
 
 exports[`SubHeader renders correctly 1`] = `
 <div
-  className="Heading-Container"
+  className="HeadingContainer"
 >
   <div
     className="Heading container"
   >
-    <p
+    <h1
       className="Tagline"
     >
       One place to showcase your work
-    </p>
-    <p
-      className="Sub-Tagline Sub-Tagline-1"
-    >
-      done
-      <span
-        className="card"
-      >
-         using / for 
-      </span>
-      React / React Native
-    </p>
+    </h1>
     <div
-      className="Cta-Container"
+      className="SubTagline"
+    >
+      <span>
+        Implemented 
+      </span>
+      <span
+        className="SubTagline__Item SubTagline__Item--Front"
+      >
+        <span
+          className="is-visible"
+        >
+          using
+        </span>
+        <span
+          className="is-hidden"
+        >
+          for
+        </span>
+      </span>
+      <span>
+         React / React Native
+      </span>
+    </div>
+    <div
+      className="Heading__Cta"
     >
       <button
-        className=""
+        className="Button"
         onClick={[Function]}
         type="button"
       >
         Submit Request
       </button>
       <button
-        className=""
+        className="Button"
         onClick={[Function]}
         type="button"
       >

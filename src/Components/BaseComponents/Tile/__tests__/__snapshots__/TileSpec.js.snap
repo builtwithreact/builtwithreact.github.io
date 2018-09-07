@@ -4,27 +4,62 @@ exports[`Tile renders correctly 1`] = `
 <div
   className="Tile"
 >
-  githubId : 
-   
-  <br />
-  githubUrl : 
-   
-  <br />
-  longDesc : 
-   
-  <br />
-  name : 
-   
-  <br />
-  shortDesc : 
-   
-  <br />
-  submissionDate : 
-   
-  <br />
-  thumb : 
-   
-  <br />
-  twitterId : 
+  <div
+    className="Tile-Image"
+    style={
+      Object {
+        "backgroundImage": "",
+      }
+    }
+  >
+    <img
+      src="http://madewithreact.com/content/images/2017/03/react-logo-generator-1.png"
+    />
+  </div>
+  <div
+    className="Tile-Details"
+  >
+    <hr
+      className="divider"
+    />
+    <div
+      className="ProjectInfo"
+    >
+      <h3
+        className="ProjectInfo-Title"
+      >
+         
+         
+      </h3>
+      <p
+        className="ProjectInfo-Description"
+      />
+    </div>
+    <div
+      className="AuthorInfo"
+    >
+      <a
+        href="https://github.com/pankajladhar"
+        target="_blank"
+      >
+        <img
+          className="AuthorInfo-Avatar"
+          name="Pankaj Ladhar"
+          src="https://avatars2.githubusercontent.com/u/6375735?v=4"
+        />
+      </a>
+      <div>
+        <a
+          href="https://github.com/pankajladhar"
+          target="_blank"
+        >
+          Pankaj Ladhar
+        </a>
+        <span
+          className="AuthorInfo-submissionDate"
+        />
+      </div>
+    </div>
+  </div>
 </div>
 `;

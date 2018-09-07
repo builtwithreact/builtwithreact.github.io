@@ -2,7 +2,7 @@
 
 exports[`Header renders correctly 1`] = `
 <div
-  className="HeaderContainer"
+  className="HeaderContainer "
 >
   <div
     className="Header container"
@@ -28,7 +28,7 @@ exports[`Header renders correctly 1`] = `
           className="Navigation-Item"
         >
           <a
-            aria-current={false}
+            aria-current={null}
             className="Navigation-Link"
             href="/ReactWeb"
             onClick={[Function]}
@@ -41,7 +41,7 @@ exports[`Header renders correctly 1`] = `
           className="Navigation-Item"
         >
           <a
-            aria-current={false}
+            aria-current={null}
             className="Navigation-Link"
             href="/ReactNative"
             onClick={[Function]}
@@ -54,7 +54,7 @@ exports[`Header renders correctly 1`] = `
           className="Navigation-Item"
         >
           <a
-            aria-current={false}
+            aria-current={null}
             className="Navigation-Link"
             href="/ReactBlogs"
             onClick={[Function]}
@@ -67,7 +67,7 @@ exports[`Header renders correctly 1`] = `
           className="Navigation-Item"
         >
           <a
-            aria-current={false}
+            aria-current={null}
             className="Navigation-Link"
             href="/ReactTools"
             onClick={[Function]}

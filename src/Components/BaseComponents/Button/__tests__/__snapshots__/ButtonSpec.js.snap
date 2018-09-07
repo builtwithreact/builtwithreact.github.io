@@ -2,7 +2,7 @@
 
 exports[`Button renders correctly if only mandatory props are passed 1`] = `
 <button
-  className=""
+  className="Button"
   onClick={[Function]}
   type="button"
 >

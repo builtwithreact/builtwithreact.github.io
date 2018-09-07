@@ -9,25 +9,25 @@ class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            stickyHeader : false
+            stickyHeader: false
         }
     }
 
     componentDidMount() {
-        document.addEventListener('scroll', (e)=>{
-            if(window.scrollY > 60) {
-                this.setState({stickyHeader: true});
+        document.addEventListener('scroll', (e) => {
+            if (window.scrollY > 60) {
+                this.setState({ stickyHeader: true });
             } else {
-                this.setState({stickyHeader: false});
+                this.setState({ stickyHeader: false });
             }
         })
     }
     render() {
         const navitems = [
-            { "title": "Web", "url": "ReactWeb"},
-            { "title": "React Native", "url": "ReactNative"},
-            { "title": "Blogs", "url": "ReactBlogs"},
-            { "title": "Tools", "url": "ReactTools"}
+            { "title": "Web", "url": "ReactWeb" },
+            { "title": "React Native", "url": "ReactNative" },
+            { "title": "Blogs", "url": "ReactBlogs" },
+            { "title": "Tools", "url": "ReactTools" }
         ]
 
         return (
@@ -42,7 +42,7 @@ class Header extends Component {
                             {
                                 navitems.map((item) => (
                                     <li className="Navigation-Item" key={`nav-${item.title.replace(" ", "-")}`}>
-                                        <NavLink className="Navigation-Link" 
+                                        <NavLink className="Navigation-Link"
                                             activeStyle={{ color: "#4caf4f", borderBottom: "2px #4caf4f solid" }}
                                             to={`/${item.url}`}>
                                             {item.title}

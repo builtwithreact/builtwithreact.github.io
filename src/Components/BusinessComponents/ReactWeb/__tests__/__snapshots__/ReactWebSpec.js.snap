@@ -1,68 +1,495 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ReactWeb should render correctly 1`] = `
-<div
+<main
   className="ReactWeb"
 >
   <div
-    className="TileContainer"
+    className="HeadingContainer"
   >
     <div
-      className="Tile"
+      className="Heading container"
     >
-      githubId : 
-      pankajladhar
-       
-      <br />
-      githubUrl : 
-       
-      <br />
-      longDesc : 
-       
-      <br />
-      name : 
-      React Logo Generator
-       
-      <br />
-      shortDesc : 
-      This is Play Area to Change to generate React Logo with different colors
-       
-      <br />
-      submissionDate : 
-      2017 Sept 15
-       
-      <br />
-      thumb : 
-      /projects/my-app/thumb
-       
-      <br />
-      twitterId : 
-      pankajladhar
-      <br />
-      <button
-        data-likes={undefined}
-        onClick={[Function]}
+      <h1
+        className="Tagline"
       >
-        likes: 
-        0
-      </button>
-      <button>
-        Views: 
-        0
-      </button>
+        One place to showcase your work
+      </h1>
+      <div
+        className="SubTagline"
+      >
+        <span>
+          Implemented 
+        </span>
+        <span
+          className="SubTagline__Item SubTagline__Item--Front"
+        >
+          <span
+            className="is-visible"
+          >
+            using
+          </span>
+          <span
+            className="is-hidden"
+          >
+            for
+          </span>
+        </span>
+        <span>
+           React / React Native
+        </span>
+      </div>
+      <div
+        className="Heading__Cta"
+      >
+        <button
+          className="Button"
+          onClick={[Function]}
+          type="button"
+        >
+          Submit Request
+        </button>
+        <button
+          className="Button"
+          onClick={[Function]}
+          type="button"
+        >
+          Give Feedback
+        </button>
+      </div>
     </div>
   </div>
-</div>
+  <div
+    className="container App__Body"
+  >
+    <div
+      className="TileContainer"
+    >
+      <div
+        class="Tile"
+      >
+        <div
+          class="Tile-Image"
+        >
+          <img
+            src="http://madewithreact.com/content/images/2017/03/react-logo-generator-1.png"
+          />
+        </div>
+        <div
+          class="Tile-Details"
+        >
+          <hr
+            class="divider"
+          />
+          <div
+            class="ProjectInfo"
+          >
+            <h3
+              class="ProjectInfo-Title"
+            >
+               React Logo Generator 
+            </h3>
+            <p
+              class="ProjectInfo-Description"
+            >
+              This is Play Area to Change to generate React Logo with different colors
+            </p>
+          </div>
+          <div
+            class="AuthorInfo"
+          >
+            <a
+              href="https://github.com/pankajladhar"
+              target="_blank"
+            >
+              <img
+                class="AuthorInfo-Avatar"
+                name="Pankaj Ladhar"
+                src="https://avatars2.githubusercontent.com/u/6375735?v=4"
+              />
+            </a>
+            <div>
+              <a
+                href="https://github.com/pankajladhar"
+                target="_blank"
+              >
+                Pankaj Ladhar
+              </a>
+              <span
+                class="AuthorInfo-submissionDate"
+              >
+                2017 Sept 15
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Tile"
+      >
+        <div
+          class="Tile-Image"
+        >
+          <img
+            src="http://madewithreact.com/content/images/2017/03/react-logo-generator-1.png"
+          />
+        </div>
+        <div
+          class="Tile-Details"
+        >
+          <hr
+            class="divider"
+          />
+          <div
+            class="ProjectInfo"
+          >
+            <h3
+              class="ProjectInfo-Title"
+            >
+               React Logo Generator 
+            </h3>
+            <p
+              class="ProjectInfo-Description"
+            >
+              This is Play Area to Change to generate React Logo with different colors This is Play Area to Change to generate React Logo with different colors
+            </p>
+          </div>
+          <div
+            class="AuthorInfo"
+          >
+            <a
+              href="https://github.com/pankajladhar"
+              target="_blank"
+            >
+              <img
+                class="AuthorInfo-Avatar"
+                name="Pankaj Ladhar"
+                src="https://avatars2.githubusercontent.com/u/6375735?v=4"
+              />
+            </a>
+            <div>
+              <a
+                href="https://github.com/pankajladhar"
+                target="_blank"
+              >
+                Pankaj Ladhar
+              </a>
+              <span
+                class="AuthorInfo-submissionDate"
+              >
+                2017 Sept 15
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Tile"
+      >
+        <div
+          class="Tile-Image"
+        >
+          <img
+            src="http://madewithreact.com/content/images/2017/03/react-logo-generator-1.png"
+          />
+        </div>
+        <div
+          class="Tile-Details"
+        >
+          <hr
+            class="divider"
+          />
+          <div
+            class="ProjectInfo"
+          >
+            <h3
+              class="ProjectInfo-Title"
+            >
+               React Logo Generator 
+            </h3>
+            <p
+              class="ProjectInfo-Description"
+            >
+              This is Play Area to Change to generate React Logo with different colors This is Play Area to Change to generate React Logo with different colors
+            </p>
+          </div>
+          <div
+            class="AuthorInfo"
+          >
+            <a
+              href="https://github.com/pankajladhar"
+              target="_blank"
+            >
+              <img
+                class="AuthorInfo-Avatar"
+                name="Pankaj Ladhar"
+                src="https://avatars2.githubusercontent.com/u/6375735?v=4"
+              />
+            </a>
+            <div>
+              <a
+                href="https://github.com/pankajladhar"
+                target="_blank"
+              >
+                Pankaj Ladhar
+              </a>
+              <span
+                class="AuthorInfo-submissionDate"
+              >
+                2017 Sept 15
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
 `;
 
 exports[`ReactWeb should render only loader 1`] = `
-<div
+<main
   className="ReactWeb"
 >
   <div
-    className="Loader"
+    className="HeadingContainer"
   >
-    Loader ....
+    <div
+      className="Heading container"
+    >
+      <h1
+        className="Tagline"
+      >
+        One place to showcase your work
+      </h1>
+      <div
+        className="SubTagline"
+      >
+        <span>
+          Implemented 
+        </span>
+        <span
+          className="SubTagline__Item SubTagline__Item--Front"
+        >
+          <span
+            className="is-visible"
+          >
+            using
+          </span>
+          <span
+            className="is-hidden"
+          >
+            for
+          </span>
+        </span>
+        <span>
+           React / React Native
+        </span>
+      </div>
+      <div
+        className="Heading__Cta"
+      >
+        <button
+          className="Button"
+          onClick={[Function]}
+          type="button"
+        >
+          Submit Request
+        </button>
+        <button
+          className="Button"
+          onClick={[Function]}
+          type="button"
+        >
+          Give Feedback
+        </button>
+      </div>
+    </div>
   </div>
-</div>
+  <div
+    className="container App__Body"
+  >
+    <div
+      className="TileContainer"
+    >
+      <div
+        class="Tile"
+      >
+        <div
+          class="Tile-Image"
+        >
+          <img
+            src="http://madewithreact.com/content/images/2017/03/react-logo-generator-1.png"
+          />
+        </div>
+        <div
+          class="Tile-Details"
+        >
+          <hr
+            class="divider"
+          />
+          <div
+            class="ProjectInfo"
+          >
+            <h3
+              class="ProjectInfo-Title"
+            >
+               React Logo Generator 
+            </h3>
+            <p
+              class="ProjectInfo-Description"
+            >
+              This is Play Area to Change to generate React Logo with different colors
+            </p>
+          </div>
+          <div
+            class="AuthorInfo"
+          >
+            <a
+              href="https://github.com/pankajladhar"
+              target="_blank"
+            >
+              <img
+                class="AuthorInfo-Avatar"
+                name="Pankaj Ladhar"
+                src="https://avatars2.githubusercontent.com/u/6375735?v=4"
+              />
+            </a>
+            <div>
+              <a
+                href="https://github.com/pankajladhar"
+                target="_blank"
+              >
+                Pankaj Ladhar
+              </a>
+              <span
+                class="AuthorInfo-submissionDate"
+              >
+                2017 Sept 15
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Tile"
+      >
+        <div
+          class="Tile-Image"
+        >
+          <img
+            src="http://madewithreact.com/content/images/2017/03/react-logo-generator-1.png"
+          />
+        </div>
+        <div
+          class="Tile-Details"
+        >
+          <hr
+            class="divider"
+          />
+          <div
+            class="ProjectInfo"
+          >
+            <h3
+              class="ProjectInfo-Title"
+            >
+               React Logo Generator 
+            </h3>
+            <p
+              class="ProjectInfo-Description"
+            >
+              This is Play Area to Change to generate React Logo with different colors This is Play Area to Change to generate React Logo with different colors
+            </p>
+          </div>
+          <div
+            class="AuthorInfo"
+          >
+            <a
+              href="https://github.com/pankajladhar"
+              target="_blank"
+            >
+              <img
+                class="AuthorInfo-Avatar"
+                name="Pankaj Ladhar"
+                src="https://avatars2.githubusercontent.com/u/6375735?v=4"
+              />
+            </a>
+            <div>
+              <a
+                href="https://github.com/pankajladhar"
+                target="_blank"
+              >
+                Pankaj Ladhar
+              </a>
+              <span
+                class="AuthorInfo-submissionDate"
+              >
+                2017 Sept 15
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Tile"
+      >
+        <div
+          class="Tile-Image"
+        >
+          <img
+            src="http://madewithreact.com/content/images/2017/03/react-logo-generator-1.png"
+          />
+        </div>
+        <div
+          class="Tile-Details"
+        >
+          <hr
+            class="divider"
+          />
+          <div
+            class="ProjectInfo"
+          >
+            <h3
+              class="ProjectInfo-Title"
+            >
+               React Logo Generator 
+            </h3>
+            <p
+              class="ProjectInfo-Description"
+            >
+              This is Play Area to Change to generate React Logo with different colors This is Play Area to Change to generate React Logo with different colors
+            </p>
+          </div>
+          <div
+            class="AuthorInfo"
+          >
+            <a
+              href="https://github.com/pankajladhar"
+              target="_blank"
+            >
+              <img
+                class="AuthorInfo-Avatar"
+                name="Pankaj Ladhar"
+                src="https://avatars2.githubusercontent.com/u/6375735?v=4"
+              />
+            </a>
+            <div>
+              <a
+                href="https://github.com/pankajladhar"
+                target="_blank"
+              >
+                Pankaj Ladhar
+              </a>
+              <span
+                class="AuthorInfo-submissionDate"
+              >
+                2017 Sept 15
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
 `;
