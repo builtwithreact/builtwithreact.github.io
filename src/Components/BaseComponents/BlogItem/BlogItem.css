@@ -6,7 +6,8 @@
     margin-right: 40px; }
   .BlogItem .BlogItem__Body {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    flex: 1; }
   .BlogItem .BlogItem__Body__Content__Link {
     border-top: 1px #ccc solid;
     margin-top: auto;

@@ -1,0 +1,9 @@
+@import './animation';
+
+@mixin skeletion {
+  @include skeletionLoadingAnimation();
+  background: #c3c2c2;
+  animation-name: loading;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}

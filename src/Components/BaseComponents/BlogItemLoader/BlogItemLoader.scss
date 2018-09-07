@@ -1,0 +1,43 @@
+@import './../../../Assets/Styles/skeletion';
+
+.BlogItemLoader {
+  display: flex;
+  height: 204px;
+
+  .BlogItemLoader__Image {
+    @include skeletion();
+    width: 250px;
+    height: 100%;
+    margin-right: 40px;
+  }
+
+  .BlogItemLoader__Body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+  }
+
+  .BlogItemLoader__Body__Title {
+    @include skeletion();
+    height: 40px;
+  }
+
+  .BlogItemLoader__Body__Content {
+    @include skeletion();
+    margin-top: 20px;
+    height: 70px;
+  }
+
+  .BlogItemLoader__Body__Content__Link {
+      // border-top: 1px #ccc solid;
+      margin-top: auto;
+      text-transform: uppercase;
+      a {
+        @include skeletion();
+        width: 100px;
+        height: 15px;
+        margin: 15px 0 5px;
+      }
+  }
+}
