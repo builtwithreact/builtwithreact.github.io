@@ -5,6 +5,7 @@ import ReactWeb from './../Components/BusinessComponents/ReactWeb';
 import ReactNative from './../Components/BusinessComponents/ReactNative';
 import ReactBlogs from './../Components/BusinessComponents/ReactBlogs';
 import ReactTools from './../Components/BusinessComponents/ReactTools';
+import Feedback from './../Components/BusinessComponents/Feedback';
 
 import './App.css';
 
@@ -18,6 +19,7 @@ const App = () => (
       <Route path="/ReactBlogs" component={ReactBlogs} />
       <Route path="/ReactNative" component={ReactNative} />
       <Route path="/ReactTools" component={ReactTools} />
+      <Route path="/Feedback" component={Feedback} />
     </div>
   </Router>
 )
