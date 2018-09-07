@@ -17,6 +17,10 @@
   .HeadingContainer .SubTagline {
     font-size: 40px;
     line-height: 1; }
+  .HeadingContainer .Heading__Cta {
+    margin-top: 80px; }
+    .HeadingContainer .Heading__Cta .Button:first-child {
+      margin-right: 30px; }
 
 .SubTagline__Item {
   perspective: 300px;
