@@ -29,11 +29,11 @@ export default class Tile extends Component {
                     {/* thumb : {this.props.thumb} <br /> */}
                     {/* twitterId : {this.props.twitterId}<br /> */}
                     <div className="AuthorInfo">
-                        <a href="https://github.com/pankajladhar" target="_blank">
+                        <a href="https://github.com/pankajladhar" target="_blank" rel="noopener noreferrer">
                             <img className="AuthorInfo-Avatar" src="https://avatars2.githubusercontent.com/u/6375735?v=4" name="Pankaj Ladhar" />
                         </a>
                         <div>
-                            <a href="https://github.com/pankajladhar" target="_blank">Pankaj Ladhar</a>
+                            <a href="https://github.com/pankajladhar" target="_blank" rel="noopener noreferrer">Pankaj Ladhar</a>
                             <span className="AuthorInfo-submissionDate">{this.props.submissionDate}</span>
                         </div>
                     </div>
