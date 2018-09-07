@@ -1,0 +1,13 @@
+.BlogItem {
+  display: flex; }
+  .BlogItem .BlogItem__Image {
+    width: 250px;
+    height: 100%;
+    margin-right: 40px; }
+  .BlogItem .BlogItem__Body {
+    display: flex;
+    flex-direction: column; }
+  .BlogItem .BlogItem__Body__Content__Link {
+    border-top: 1px #ccc solid;
+    margin-top: auto;
+    text-transform: uppercase; }

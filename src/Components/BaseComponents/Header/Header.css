@@ -3,7 +3,8 @@
   height: 60px; }
   .HeaderContainer.HeaderContainer__Sticky {
     position: fixed;
-    width: 100%; }
+    width: 100%;
+    z-index: 1; }
   .HeaderContainer .Header {
     display: flex;
     justify-content: space-between;

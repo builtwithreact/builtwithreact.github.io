@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import InnerSubHeader from './../../BaseComponents/InnerSubHeader'
+import BlogItem from './../../BaseComponents/BlogItem'
 
 class ReactBlogs extends Component {
     render() {
@@ -8,7 +9,7 @@ class ReactBlogs extends Component {
             <main className="ReactBlogs">
                 <InnerSubHeader title="Blog Posts"/>
                 <div className="container App__Body">
-                    ReactBlogs
+                    <BlogItem />
                 </div>
             </main>
         );
