@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import './InnerSubHeader.css';
 
@@ -16,7 +16,7 @@ const InnerSubHeader = ({ title }) => {
 }
 
 InnerSubHeader.propTypes = {
-
+    title: PropTypes.string.isRequired
 };
 
 export default InnerSubHeader;

@@ -16,7 +16,8 @@ export default class Tile extends Component {
         return (
             <div className="Tile">
                 <div className="Tile-Image" style={{ backgroundImage: "" }}>
-                    <img src="https://madewithreact.com/content/images/2017/03/react-logo-generator-1.png" />
+                    <img src="https://madewithreact.com/content/images/2017/03/react-logo-generator-1.png"
+                        alt="logo" />
                 </div>
                 <div className="Tile-Details">
                     <hr className="divider" />
@@ -31,10 +32,14 @@ export default class Tile extends Component {
                     {/* twitterId : {this.props.twitterId}<br /> */}
                     <div className="AuthorInfo">
                         <a href="https://github.com/pankajladhar" target="_blank" rel="noopener noreferrer">
-                            <img className="AuthorInfo-Avatar" src="https://avatars2.githubusercontent.com/u/6375735?v=4" name="Pankaj Ladhar" />
+                            <img className="AuthorInfo-Avatar" 
+                                src="https://avatars2.githubusercontent.com/u/6375735?v=4" name="Pankaj Ladhar"
+                                alt="logo" />
                         </a>
                         <div>
-                            <a href="https://github.com/pankajladhar" target="_blank" rel="noopener noreferrer">Pankaj Ladhar</a>
+                            <a href="https://github.com/pankajladhar" 
+                                target="_blank" 
+                                rel="noopener noreferrer">Pankaj Ladhar</a>
                             <span className="AuthorInfo-submissionDate">{this.props.submissionDate}</span>
                         </div>
                     </div>

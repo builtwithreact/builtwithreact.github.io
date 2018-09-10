@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Link, NavLink, Route } from 'react-router-dom';
-import PropTypes from 'prop-types';
+import { Link, NavLink } from 'react-router-dom';
 import logo from './../../../Assets/images/logo.svg';
+import CONSTANTS from './../../../Constants';
 
 import './Header.css';
 
@@ -23,15 +23,7 @@ class Header extends Component {
         })
     }
     render() {
-        const navitems = [
-            { "title": "Web", "url": "ReactWeb" },
-            { "title": "React Native", "url": "ReactNative" },
-            { "title": "Blogs", "url": "ReactBlogs" },
-            { "title": "Tools", "url": "ReactTools" },
-            { "title": "Request", "url": "SubmitRequest", "addSeperator" : true },
-            { "title": "Feedback", "url": "Feedback" }
-        ]
-
+        const navitems = CONSTANTS.NAV_ITEMS
         return (
             <div className={`HeaderContainer ${this.state.stickyHeader ? 'HeaderContainer__Sticky' : ''}`}>
                 <div className="Header container">

@@ -66,7 +66,7 @@
   .BlogItemLoader .BlogItemLoader__Body__Content__Link {
     margin-top: auto;
     text-transform: uppercase; }
-    .BlogItemLoader .BlogItemLoader__Body__Content__Link a {
+    .BlogItemLoader .BlogItemLoader__Body__Content__Link .BlogItemLoader__Body__Content__Link__a {
       background: #c3c2c2;
       animation-name: loading;
       animation-duration: 1s;

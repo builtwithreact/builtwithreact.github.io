@@ -33,7 +33,7 @@
       // border-top: 1px #ccc solid;
       margin-top: auto;
       text-transform: uppercase;
-      a {
+      .BlogItemLoader__Body__Content__Link__a {
         @include skeletion();
         width: 100px;
         height: 15px;
