@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 //import PropTypes from 'prop-types';
 //import classnames from 'classnames';
+import Sample from './Sample.png'
 import './Tile.css';
 
 const propTypes = {}
