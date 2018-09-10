@@ -1,0 +1,9 @@
+.SubmitRequest .SubmitRequest__Body {
+  text-align: center; }
+  .SubmitRequest .SubmitRequest__Body h3 {
+    margin-bottom: 30px;
+    font-size: 25px; }
+  .SubmitRequest .SubmitRequest__Body a {
+    text-decoration: underline; }
+    .SubmitRequest .SubmitRequest__Body a:hover {
+      text-decoration: none; }

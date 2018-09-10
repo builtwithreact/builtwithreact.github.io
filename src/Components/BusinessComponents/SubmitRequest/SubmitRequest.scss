@@ -1,0 +1,15 @@
+.SubmitRequest {
+  .SubmitRequest__Body { 
+    text-align: center;
+    h3 {
+      margin-bottom: 30px;
+      font-size: 25px;
+    }
+    a {
+      text-decoration: underline;
+      &:hover {
+       text-decoration: none;
+      }
+    }
+  }
+}
