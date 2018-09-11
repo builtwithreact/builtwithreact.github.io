@@ -9,8 +9,20 @@ class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            stickyHeader: false
+            stickyHeader: false,
+            isMainNavActive: false
         }
+        this.toggleBtnClick = this.toggleBtnClick.bind(this);
+    }
+
+    toggleBtnClick() {
+        this.setState({
+            isMainNavActive: !this.state.isMainNavActive
+        }, () => {
+            const body = document.querySelector('body');
+            this.state.isMainNavActive ? body.className = 'noSroll' : body.className = ''
+        });
+
     }
 
     componentDidMount() {
@@ -31,7 +43,7 @@ class Header extends Component {
                         <img src={logo} alt="Built With React" />
                         <span>Built with React</span>
                     </Link>
-                    <nav className="Navigation">
+                    <nav className={`Navigation ${this.state.isMainNavActive ? 'Navigation__Active' : ''}`}>
                         <ul>
                             {
                                 navitems.map((item) => (
@@ -46,6 +58,13 @@ class Header extends Component {
                             }
                         </ul>
                     </nav>
+                    
+                    <button className={`Navigation__ToggleBtn ${this.state.isMainNavActive ? 'Navigation__ToggleBtn__Active' : ''}`}
+                        onClick={this.toggleBtnClick}>
+                        <span className="Navigation__ToggleBtn__Line"></span>
+                        <span className="Navigation__ToggleBtn__Line"></span>
+                        <span className="Navigation__ToggleBtn__Line"></span>
+                    </button>
                 </div>
             </div>
         );

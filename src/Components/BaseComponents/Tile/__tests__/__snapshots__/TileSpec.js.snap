@@ -13,7 +13,8 @@ exports[`Tile renders correctly 1`] = `
     }
   >
     <img
-      src="http://madewithreact.com/content/images/2017/03/react-logo-generator-1.png"
+      alt="logo"
+      src="https://madewithreact.com/content/images/2017/03/react-logo-generator-1.png"
     />
   </div>
   <div
@@ -40,9 +41,11 @@ exports[`Tile renders correctly 1`] = `
     >
       <a
         href="https://github.com/pankajladhar"
+        rel="noopener noreferrer"
         target="_blank"
       >
         <img
+          alt="logo"
           className="AuthorInfo-Avatar"
           name="Pankaj Ladhar"
           src="https://avatars2.githubusercontent.com/u/6375735?v=4"
@@ -51,6 +54,7 @@ exports[`Tile renders correctly 1`] = `
       <div>
         <a
           href="https://github.com/pankajladhar"
+          rel="noopener noreferrer"
           target="_blank"
         >
           Pankaj Ladhar

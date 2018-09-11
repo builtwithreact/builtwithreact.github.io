@@ -11,7 +11,8 @@ exports[`TileContainer renders correctly 1`] = `
       className="Tile-Image"
     >
       <img
-        src="http://madewithreact.com/content/images/2017/03/react-logo-generator-1.png"
+        alt=""
+        src="Sample.png"
       />
     </div>
     <div
@@ -42,127 +43,9 @@ exports[`TileContainer renders correctly 1`] = `
           target="_blank"
         >
           <img
+            alt=""
             className="AuthorInfo-Avatar"
-            name="Pankaj Ladhar"
-            src="https://avatars2.githubusercontent.com/u/6375735?v=4"
-          />
-        </a>
-        <div>
-          <a
-            href="https://github.com/pankajladhar"
-            target="_blank"
-          >
-            Pankaj Ladhar
-          </a>
-          <span
-            className="AuthorInfo-submissionDate"
-          >
-            2017 Sept 15
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    className="Tile"
-  >
-    <div
-      className="Tile-Image"
-    >
-      <img
-        src="http://madewithreact.com/content/images/2017/03/react-logo-generator-1.png"
-      />
-    </div>
-    <div
-      className="Tile-Details"
-    >
-      <hr
-        className="divider"
-      />
-      <div
-        className="ProjectInfo"
-      >
-        <h3
-          className="ProjectInfo-Title"
-        >
-           React Logo Generator 
-        </h3>
-        <p
-          className="ProjectInfo-Description"
-        >
-          This is Play Area to Change to generate React Logo with different colors This is Play Area to Change to generate React Logo with different colors
-        </p>
-      </div>
-      <div
-        className="AuthorInfo"
-      >
-        <a
-          href="https://github.com/pankajladhar"
-          target="_blank"
-        >
-          <img
-            className="AuthorInfo-Avatar"
-            name="Pankaj Ladhar"
-            src="https://avatars2.githubusercontent.com/u/6375735?v=4"
-          />
-        </a>
-        <div>
-          <a
-            href="https://github.com/pankajladhar"
-            target="_blank"
-          >
-            Pankaj Ladhar
-          </a>
-          <span
-            className="AuthorInfo-submissionDate"
-          >
-            2017 Sept 15
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    className="Tile"
-  >
-    <div
-      className="Tile-Image"
-    >
-      <img
-        src="http://madewithreact.com/content/images/2017/03/react-logo-generator-1.png"
-      />
-    </div>
-    <div
-      className="Tile-Details"
-    >
-      <hr
-        className="divider"
-      />
-      <div
-        className="ProjectInfo"
-      >
-        <h3
-          className="ProjectInfo-Title"
-        >
-           React Logo Generator 
-        </h3>
-        <p
-          className="ProjectInfo-Description"
-        >
-          This is Play Area to Change to generate React Logo with different colors This is Play Area to Change to generate React Logo with different colors
-        </p>
-      </div>
-      <div
-        className="AuthorInfo"
-      >
-        <a
-          href="https://github.com/pankajladhar"
-          target="_blank"
-        >
-          <img
-            className="AuthorInfo-Avatar"
-            name="Pankaj Ladhar"
-            src="https://avatars2.githubusercontent.com/u/6375735?v=4"
+            src="Sample.png"
           />
         </a>
         <div>

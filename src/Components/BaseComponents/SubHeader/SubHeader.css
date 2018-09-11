@@ -14,14 +14,36 @@
     margin-bottom: 15px;
     font-size: 80px;
     line-height: 1; }
+    @media screen and (max-width: 769px) {
+      .HeadingContainer .Tagline {
+        margin-bottom: 60px; } }
+    @media screen and (max-width: 767px) {
+      .HeadingContainer .Tagline {
+        font-size: 50px; } }
   .HeadingContainer .SubTagline {
     font-size: 40px;
     line-height: 1; }
+    @media screen and (max-width: 769px) {
+      .HeadingContainer .SubTagline {
+        font-size: 36px; } }
+    @media screen and (max-width: 767px) {
+      .HeadingContainer .SubTagline {
+        font-size: 25px;
+        line-height: inherit; } }
   .HeadingContainer .Heading__Cta {
     margin-top: 80px;
     margin-bottom: 80px; }
+    @media screen and (max-width: 767px) {
+      .HeadingContainer .Heading__Cta {
+        display: flex;
+        flex-direction: column;
+        margin: 40px 0 0; } }
     .HeadingContainer .Heading__Cta .Button:first-child {
       margin-right: 30px; }
+      @media screen and (max-width: 767px) {
+        .HeadingContainer .Heading__Cta .Button:first-child {
+          margin-right: 0;
+          margin-bottom: 20px; } }
 
 .SubTagline__Item {
   perspective: 300px;
@@ -29,6 +51,9 @@
   display: inline-block;
   width: 105px;
   text-align: center; }
+  @media screen and (max-width: 767px) {
+    .SubTagline__Item {
+      width: 58px; } }
   .SubTagline__Item span {
     opacity: 0;
     transform-origin: 50% 100%;
@@ -40,6 +65,9 @@
     top: -34px;
     width: 100%;
     text-align: center; }
+    @media screen and (max-width: 767px) {
+      .SubTagline__Item span {
+        top: -27px; } }
     .SubTagline__Item span.is-visible {
       opacity: 1;
       transform: rotateX(0deg);

@@ -12,6 +12,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media screen and (max-width: 769px) { 
+      position: relative;
+    }
   }
 
   .Logo {
@@ -22,6 +25,11 @@
     font-weight: bold;
     align-items: center;
     font-family: Courgette, sans-serif;
+    @media screen and (max-width: 767px) {
+      font-size: 20px;
+      margin-left: -12px;
+    }
+
     img {
       width: 70px;  
       height: 60px;
@@ -29,7 +37,61 @@
   }
 }
 
+.Navigation__ToggleBtn {
+  display: none;
+  padding: 0;
+  color: #fff;
+  @media screen and (max-width: 769px) {
+    display: block
+  }
+  .Navigation__ToggleBtn__Line {
+    position: relative;
+    height: 4px;
+    background: #fff;
+    width: 35px;
+    display: block;
+    margin: 6px 0 0;
+    transition: 0.5s;
+    transform-origin: center;
+    border-radius:3px;
+    &:nth-child(2) {
+      width: 30px;
+    } 
+  }
+  &.Navigation__ToggleBtn__Active {
+    .Navigation__ToggleBtn__Line {
+      &:nth-child(1) {
+        transform: translateY(10px) rotate(-45deg);
+      }
+  
+      &:nth-child(2) {
+        opacity: 0;  
+      }
+      &:nth-child(3) {
+        transform: translateY(-10px) rotate(45deg);
+      }
+    }
+  }
+}
+
 .Navigation {
+  @media screen and (max-width: 769px) { 
+    position: absolute;
+    background: #1c1d21;
+    top: 60px;
+    width: 0;
+    z-index: 11;
+    transition: all .3s ease;
+    height: 100vh;
+    opacity: 0;
+    left: 100%;
+    left: 0;
+
+    &.Navigation__Active {
+      width: 100%;
+      opacity: 1;
+    }
+  }
   ul {
     list-style: none;
     margin: 0;
@@ -38,6 +100,12 @@
     margin-left: auto;
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 769px) { 
+      flex-direction: column;
+      height: 100%;
+      padding-top: 20px;
+    }
 
     .Navigation-Link {
       color: #fff;
@@ -48,6 +116,9 @@
       line-height: 1;
       margin: 0 10px;
       border-bottom: 2px #1c1d21 solid;
+      @media screen and (max-width: 769px) { 
+        font-size: 26px;
+      }
       &:hover {
         color: #4caf4f;
       }
@@ -57,6 +128,9 @@
           content: '';
           border-left: 1px #fff solid;
           margin-right: 20px;
+          @media screen and (max-width: 769px) { 
+            display: none;
+          }
         }
       }
     }

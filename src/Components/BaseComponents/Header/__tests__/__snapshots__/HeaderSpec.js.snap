@@ -21,7 +21,7 @@ exports[`Header renders correctly 1`] = `
       </span>
     </a>
     <nav
-      className="Navigation"
+      className="Navigation "
     >
       <ul>
         <li
@@ -29,7 +29,7 @@ exports[`Header renders correctly 1`] = `
         >
           <a
             aria-current={null}
-            className="Navigation-Link"
+            className="Navigation-Link undefined"
             href="/ReactWeb"
             onClick={[Function]}
             style={undefined}
@@ -42,7 +42,7 @@ exports[`Header renders correctly 1`] = `
         >
           <a
             aria-current={null}
-            className="Navigation-Link"
+            className="Navigation-Link undefined"
             href="/ReactNative"
             onClick={[Function]}
             style={undefined}
@@ -55,7 +55,7 @@ exports[`Header renders correctly 1`] = `
         >
           <a
             aria-current={null}
-            className="Navigation-Link"
+            className="Navigation-Link undefined"
             href="/ReactBlogs"
             onClick={[Function]}
             style={undefined}
@@ -68,7 +68,7 @@ exports[`Header renders correctly 1`] = `
         >
           <a
             aria-current={null}
-            className="Navigation-Link"
+            className="Navigation-Link undefined"
             href="/ReactTools"
             onClick={[Function]}
             style={undefined}
@@ -76,8 +76,48 @@ exports[`Header renders correctly 1`] = `
             Tools
           </a>
         </li>
+        <li
+          className="Navigation-Item"
+        >
+          <a
+            aria-current={null}
+            className="Navigation-Link Navigation-Link__Seprator"
+            href="/SubmitRequest"
+            onClick={[Function]}
+            style={undefined}
+          >
+            Request
+          </a>
+        </li>
+        <li
+          className="Navigation-Item"
+        >
+          <a
+            aria-current={null}
+            className="Navigation-Link undefined"
+            href="/Feedback"
+            onClick={[Function]}
+            style={undefined}
+          >
+            Feedback
+          </a>
+        </li>
       </ul>
     </nav>
+    <button
+      className="Navigation__ToggleBtn "
+      onClick={[Function]}
+    >
+      <span
+        className="Navigation__ToggleBtn__Line"
+      />
+      <span
+        className="Navigation__ToggleBtn__Line"
+      />
+      <span
+        className="Navigation__ToggleBtn__Line"
+      />
+    </button>
   </div>
 </div>
 `;

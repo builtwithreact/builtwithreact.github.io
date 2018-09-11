@@ -15,18 +15,42 @@
     margin-bottom: 15px;
     font-size: 80px;
     line-height: 1;
+    @media screen and (max-width: 769px) {
+        margin-bottom: 60px;
+    }
+
+    @media screen and (max-width: 767px) { 
+        font-size: 50px;
+    }
   }
   .SubTagline {
     font-size: 40px;
     line-height: 1;
+    @media screen and (max-width: 769px) {
+        font-size: 36px;
+    }
+    
+    @media screen and (max-width: 767px) { 
+        font-size: 25px;
+        line-height: inherit;
+    }
   }
 
   .Heading__Cta {
       margin-top: 80px;
       margin-bottom: 80px;
+      @media screen and (max-width: 767px) { 
+          display: flex;
+          flex-direction: column;
+          margin: 40px 0 0;
+      }
       .Button {
           &:first-child {
               margin-right: 30px;
+              @media screen and (max-width: 767px) { 
+                  margin-right: 0;
+                  margin-bottom:20px; 
+              }
           }
       }
   }
@@ -37,6 +61,9 @@
   position: relative;
   display: inline-block;
   width: 105px;
+  @media screen and (max-width: 767px) { 
+    width: 58px;
+  }
   text-align: center;
 
   span {
@@ -50,6 +77,9 @@
     top: -34px;
     width: 100%;
     text-align: center;
+    @media screen and (max-width: 767px) {
+        top: -27px;
+    }
     &.is-visible {
         opacity: 1;
         transform: rotateX(0deg);
