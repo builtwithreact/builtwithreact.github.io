@@ -1,11 +1,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 // import { shallow } from 'enzyme';
-import { StaticRouter, MemoryRouter as Router, } from 'react-router-dom'
+import { StaticRouter } from 'react-router-dom'
 import Header from './../index';
 
-describe('Header', ()=>{
-    it('renders correctly', ()=>{
+describe('Header', () => {
+    it('renders correctly', () => {
         let tree = renderer.create(
             <StaticRouter location="someLocation" context={{}}>
                 <Header />

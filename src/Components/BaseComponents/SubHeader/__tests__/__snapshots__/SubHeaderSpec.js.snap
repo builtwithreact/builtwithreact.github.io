@@ -39,20 +39,20 @@ exports[`SubHeader renders correctly 1`] = `
     <div
       className="Heading__Cta"
     >
-      <button
+      <a
         className="Button"
+        href="/SubmitRequest"
         onClick={[Function]}
-        type="button"
       >
         Submit Request
-      </button>
-      <button
+      </a>
+      <a
         className="Button"
+        href="/Feedback"
         onClick={[Function]}
-        type="button"
       >
         Give Feedback
-      </button>
+      </a>
     </div>
   </div>
 </div>

@@ -1,7 +1,9 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-// import { shallow } from 'enzyme';
 import ReactWeb from './../index';
+jest.mock('./../../../BaseComponents/SubHeader', () => 'SubHeader')
+jest.mock('./../../../BaseComponents/TileContainer', () => 'TileContainer')
+
 
 describe('ReactWeb', ()=>{
     it('should render only loader', ()=>{
