@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BlogItemLoader /> should render correctly 1`] = `
+<div
+  className="BlogItemLoader"
+>
+  <div
+    className="BlogItemLoader__Image"
+  />
+  <div
+    className="BlogItemLoader__Body"
+  >
+    <div
+      className="BlogItemLoader__Body__Title"
+    />
+    <div
+      className="BlogItemLoader__Body__Content"
+    />
+    <div
+      className="BlogItemLoader__Body__Content__Link"
+    >
+      <div
+        className="BlogItemLoader__Body__Content__Link__a"
+      />
+    </div>
+  </div>
+</div>
+`;

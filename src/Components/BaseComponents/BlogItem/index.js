@@ -13,10 +13,11 @@ const BlogItem = (props) => {
                 </h2>
                 <div className="BlogItem__Body__Content">
                     {props.content}
-                    {/*  */}
                 </div>
                 <div className="BlogItem__Body__Content__Link">
-                    <a href={props.readMoreLink}> Read more </a>
+                    <a href={props.readMoreLink}>
+                        Read more
+                    </a>
                 </div>
             </div>
         </div>
@@ -25,9 +26,9 @@ const BlogItem = (props) => {
 
 BlogItem.propTypes = {
     title: PropTypes.string.isRequired,
-    imageUrl : PropTypes.string,
-    content : PropTypes.string,
-    readMoreLink : PropTypes.string
+    imageUrl: PropTypes.string,
+    content: PropTypes.string,
+    readMoreLink: PropTypes.string
 }
 
 BlogItem.defaultProps = {

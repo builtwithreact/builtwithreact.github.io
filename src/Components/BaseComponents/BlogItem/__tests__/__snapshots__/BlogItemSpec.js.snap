@@ -28,14 +28,14 @@ exports[`<BlogItem /> should render correctly 1`] = `
       <a
         href="https://someremorelink.url"
       >
-         Read more 
+        Read more
       </a>
     </div>
   </div>
 </div>
 `;
 
-exports[`<BlogItem /> should render with defaule image if not provided 1`] = `
+exports[`<BlogItem /> should render with default image if not provided 1`] = `
 <div
   className="BlogItem"
 >
@@ -63,7 +63,7 @@ exports[`<BlogItem /> should render with defaule image if not provided 1`] = `
       <a
         href="https://someremorelink.url"
       >
-         Read more 
+        Read more
       </a>
     </div>
   </div>

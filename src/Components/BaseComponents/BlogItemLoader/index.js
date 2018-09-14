@@ -9,7 +9,7 @@ const BlogItemLoader = () => {
                 <div className="BlogItemLoader__Body__Title" />
                 <div className="BlogItemLoader__Body__Content" />
                 <div className="BlogItemLoader__Body__Content__Link">
-                    <div className="BlogItemLoader__Body__Content__Link__a"/ >
+                    <div className="BlogItemLoader__Body__Content__Link__a" />
                 </div>
             </div>
         </div>

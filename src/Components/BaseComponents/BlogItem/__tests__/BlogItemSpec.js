@@ -17,7 +17,7 @@ describe('<BlogItem />', () => {
         expect(tree).toMatchSnapshot()
     })
 
-    it('should render with defaule image if not provided', () => {
+    it('should render with default image if not provided', () => {
         const blogItemProps = {
             title: "some title",
             content: "some content",
