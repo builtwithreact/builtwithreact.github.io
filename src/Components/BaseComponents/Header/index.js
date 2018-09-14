@@ -50,6 +50,7 @@ class Header extends Component {
                                     <li className="Navigation-Item" key={`nav-${item.title.replace(" ", "-")}`}>
                                         <NavLink className={`Navigation-Link ${item.addSeperator && 'Navigation-Link__Seprator'}`}
                                             activeStyle={{ color: "#4caf4f", borderBottom: "2px #4caf4f solid" }}
+                                            onClick={this.toggleBtnClick}
                                             to={`/${item.url}`}>
                                             {item.title}
                                         </NavLink>
