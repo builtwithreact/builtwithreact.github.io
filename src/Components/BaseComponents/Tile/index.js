@@ -1,46 +1,33 @@
 import React, { Component } from 'react';
-//import PropTypes from 'prop-types';
-//import classnames from 'classnames';
-import Sample from './Sample.png'
+import PropTypes from 'prop-types';
 import './Tile.css';
-
-const propTypes = {}
-const defaultProps = {}
-
-export default class Tile extends Component {
-    constructor(props) {
-        super(props);
-    };
-
+class Tile extends Component {
     render() {
+        const { imageUrl, projectName, description, avatarUrl, authorName, submissionDate, gitHubUrl } = this.props
         return (
             <div className="Tile">
-                <div className="Tile-Image" style={{ backgroundImage: "" }}>
-                    <img src="https://madewithreact.com/content/images/2017/03/react-logo-generator-1.png"
-                        alt="logo" />
+                <div className="Tile-Image">
+                    <img src={imageUrl} alt={projectName} />
                 </div>
                 <div className="Tile-Details">
                     <hr className="divider" />
                     <div className="ProjectInfo">
-                        <h3 className="ProjectInfo-Title"> {this.props.name} </h3>
-                        <p className="ProjectInfo-Description">{this.props.desc}</p>
+                        <h3 className="ProjectInfo-Title"> {projectName} </h3>
+                        <p className="ProjectInfo-Description">{description}</p>
                     </div>
-                    {/* githubId : {this.props.githubId} <br /> */}
-                    {/* githubUrl : {this.props.githubUrl} <br /> */}
-                    {/* longDesc : {this.props.longDesc} <br /> */}
-                    {/* thumb : {this.props.thumb} <br /> */}
-                    {/* twitterId : {this.props.twitterId}<br /> */}
                     <div className="AuthorInfo">
-                        <a href="https://github.com/pankajladhar" target="_blank" rel="noopener noreferrer">
-                            <img className="AuthorInfo-Avatar" 
-                                src="https://avatars2.githubusercontent.com/u/6375735?v=4" name="Pankaj Ladhar"
-                                alt="logo" />
+                        <a href={gitHubUrl}
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <img className="AuthorInfo-Avatar"
+                                src={avatarUrl}
+                                alt={authorName} />
                         </a>
                         <div>
-                            <a href="https://github.com/pankajladhar" 
-                                target="_blank" 
-                                rel="noopener noreferrer">Pankaj Ladhar</a>
-                            <span className="AuthorInfo-submissionDate">{this.props.submissionDate}</span>
+                            <a href={gitHubUrl}
+                                target="_blank"
+                                rel="noopener noreferrer">{authorName}</a>
+                            <span className="AuthorInfo-submissionDate">{submissionDate}</span>
                         </div>
                     </div>
                 </div>
@@ -53,5 +40,14 @@ export default class Tile extends Component {
     }
 }
 
-Tile.propTypes = propTypes;
-Tile.defaultProps = defaultProps;
+Tile.propTypes = {
+    imageUrl: PropTypes.string,
+    projectName: PropTypes.string,
+    description: PropTypes.string,
+    avatarUrl: PropTypes.string,
+    authorName: PropTypes.string,
+    gitHubUrl: PropTypes.string,
+}
+
+export default Tile;
+

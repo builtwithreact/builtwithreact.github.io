@@ -1,16 +1,15 @@
 const WebData = [
     {
-        "ProjectName": "",
-        "shortDescription": "",
-        "LongDescription": "",
-        "demoUrl": "",
         "imageUrl": "",
-        "codeRepoUrl": "",
-        "githubUrl": "",
+        "projectName": "",
+        "description": "",
         "avatarUrl": "",
-        "twitterId": "",
-        "submissionDate": "",
         "authorName": "",
+        "submissionDate": "",
+
+        "demoUrl": "",
+        "codeRepoUrl": "",
+        "twitterId": "",
         "tags": []
     }
 ]
