@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import ReactWeb from './../index';
-jest.mock('./../../../BaseComponents/SubHeader', () => 'SubHeader')
+jest.mock('./../../../BaseComponents/InnerSubHeader', () => 'InnerSubHeader')
 jest.mock('./../../../BaseComponents/TileContainer', () => 'TileContainer')
 
 

@@ -4,7 +4,9 @@ exports[`ReactWeb should render correctly 1`] = `
 <main
   className="ReactWeb"
 >
-  <SubHeader />
+  <InnerSubHeader
+    title="React web"
+  />
   <div
     className="container App__Body"
   >
@@ -17,7 +19,9 @@ exports[`ReactWeb should render only loader 1`] = `
 <main
   className="ReactWeb"
 >
-  <SubHeader />
+  <InnerSubHeader
+    title="React web"
+  />
   <div
     className="container App__Body"
   >

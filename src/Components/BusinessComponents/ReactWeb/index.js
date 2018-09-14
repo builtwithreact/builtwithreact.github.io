@@ -1,15 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import TileContainer from './../../BaseComponents/TileContainer';
-import SubHeader from './../../BaseComponents/SubHeader'
-import Loader from './../../BaseComponents/Loader';
-import Tile from './../../BaseComponents/Tile';
+import InnerSubHeader from './../../BaseComponents/InnerSubHeader'
 import './ReactWeb.scss';
 
-const propTypes = {}
-const defaultProps = {}
-
-export default class ReactWeb extends Component {
+class ReactWeb extends Component {
     constructor(props) {
         super(props)
     };
@@ -21,17 +16,13 @@ export default class ReactWeb extends Component {
     render() {
         return (
             <main className="ReactWeb">
-                <SubHeader />
+                <InnerSubHeader title="React web"/>
                 <div className="container App__Body">
                     <TileContainer />
                 </div>
-                {/* {this.props.showLoaderOnReactWebPage ? <Loader /> : 
-                     tiles={this.props.reactWebPageData} 
-                    updateLikesReactWeb={this.props.updateLikesReactWeb} />} */}
             </main>
         );
     }
 }
 
-ReactWeb.propTypes = propTypes;
-ReactWeb.defaultProps = defaultProps;
+export default  ReactWeb

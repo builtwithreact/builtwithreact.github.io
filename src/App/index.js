@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 import Header from './../Components/BaseComponents/Header';
+import Home from './../Components/BusinessComponents/Home';
 import ReactWeb from './../Components/BusinessComponents/ReactWeb';
 import ReactNative from './../Components/BusinessComponents/ReactNative';
 import ReactBlogs from './../Components/BusinessComponents/ReactBlogs';
@@ -15,7 +16,7 @@ const App = () => (
   <Router>
     <div className="App">
       <Header />
-      <Route exact path="/" component={ReactWeb} />
+      <Route exact path="/" component={Home} />
       <Route path="/ReactWeb" component={ReactWeb} />
       <Route path="/ReactBlogs" component={ReactBlogs} />
       <Route path="/ReactNative" component={ReactNative} />
