@@ -2,6 +2,10 @@
   .App__Body {
     margin-top:80px; 
     margin-bottom:80px; 
+    @media screen and (max-width: 767px) { 
+      margin-top:30px; 
+      margin-bottom:30px; 
+    }
   }
 }
 

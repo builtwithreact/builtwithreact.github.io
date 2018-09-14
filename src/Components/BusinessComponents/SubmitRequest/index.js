@@ -6,7 +6,7 @@ import './SubmitRequest.css';
 const SubmitRequest = () => {
     return (
         <div className="SubmitRequest">
-            <InnerSubHeader title="Submit Request" />
+            <InnerSubHeader title="Request" />
             <div className="container App__Body SubmitRequest__Body">
                 <div className="SubmitRequest__Content">
                     <h3>
