@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BlogItem /> should render correctly 1`] = `
+<div
+  className="BlogItem"
+>
+  <img
+    alt="some title"
+    className="BlogItem__Image"
+    src="https://someimage.url"
+  />
+  <div
+    className="BlogItem__Body"
+  >
+    <h2
+      className="BlogItem__Body__Title"
+    >
+      some title
+    </h2>
+    <div
+      className="BlogItem__Body__Content"
+    >
+      some content
+    </div>
+    <div
+      className="BlogItem__Body__Content__Link"
+    >
+      <a
+        href="https://someremorelink.url"
+      >
+         Read more 
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<BlogItem /> should render with defaule image if not provided 1`] = `
+<div
+  className="BlogItem"
+>
+  <img
+    alt="some title"
+    className="BlogItem__Image"
+    src="sample.jpg"
+  />
+  <div
+    className="BlogItem__Body"
+  >
+    <h2
+      className="BlogItem__Body__Title"
+    >
+      some title
+    </h2>
+    <div
+      className="BlogItem__Body__Content"
+    >
+      some content
+    </div>
+    <div
+      className="BlogItem__Body__Content__Link"
+    >
+      <a
+        href="https://someremorelink.url"
+      >
+         Read more 
+      </a>
+    </div>
+  </div>
+</div>
+`;

@@ -6,21 +6,32 @@ import './BlogItem.css';
 const BlogItem = (props) => {
     return (
         <div className="BlogItem">
-            <img src={sample} alt="" className="BlogItem__Image" />
+            <img src={props.imageUrl} alt={props.title} className="BlogItem__Image" />
             <div className="BlogItem__Body">
                 <h2 className="BlogItem__Body__Title">
-                    5 Best Free Resouces for Learning HTML and CSS
+                    {props.title}
                 </h2>
                 <div className="BlogItem__Body__Content">
-                    Last year I wrote about why bookinf too far in advance can be dangerous for yoyr businss,
-                     and this concept of margin so eloquently caprutes what i had
+                    {props.content}
+                    {/*  */}
                 </div>
                 <div className="BlogItem__Body__Content__Link">
-                    <a href=""> Read more </a>
+                    <a href={props.readMoreLink}> Read more </a>
                 </div>
             </div>
         </div>
     )
+}
+
+BlogItem.propTypes = {
+    title: PropTypes.string.isRequired,
+    imageUrl : PropTypes.string,
+    content : PropTypes.string,
+    readMoreLink : PropTypes.string
+}
+
+BlogItem.defaultProps = {
+    imageUrl: sample
 }
 
 export default BlogItem;
