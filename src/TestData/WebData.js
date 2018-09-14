@@ -6,7 +6,6 @@ const WebData = [
         "avatarUrl": "",
         "authorName": "",
         "submissionDate": "",
-
         "demoUrl": "",
         "codeRepoUrl": "",
         "twitterId": "",

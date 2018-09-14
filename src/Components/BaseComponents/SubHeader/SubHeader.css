@@ -1,6 +1,6 @@
 .HeadingContainer {
   font-family: Courgette, sans-serif;
-  height: calc(100vh - 60px);
+  height: 100vh;
   background: #1c1d21;
   width: 100%;
   color: #fff; }
