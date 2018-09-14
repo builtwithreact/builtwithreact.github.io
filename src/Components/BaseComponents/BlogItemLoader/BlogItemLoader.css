@@ -1,6 +1,9 @@
 .BlogItemLoader {
   display: flex;
   height: 204px; }
+  @media screen and (max-width: 767px) {
+    .BlogItemLoader {
+      height: 100px; } }
   .BlogItemLoader .BlogItemLoader__Image {
     background: #c3c2c2;
     animation-name: loading;
@@ -21,6 +24,10 @@
     opacity: 0.7; }
   100% {
     opacity: 0.9; } }
+    @media screen and (max-width: 767px) {
+      .BlogItemLoader .BlogItemLoader__Image {
+        width: 100px;
+        margin-right: 20px; } }
   .BlogItemLoader .BlogItemLoader__Body {
     display: flex;
     flex-direction: column;

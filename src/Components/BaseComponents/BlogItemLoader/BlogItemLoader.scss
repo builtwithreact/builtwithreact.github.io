@@ -3,12 +3,19 @@
 .BlogItemLoader {
   display: flex;
   height: 204px;
+  @media screen and (max-width: 767px) { 
+    height: 100px;
+  }
 
   .BlogItemLoader__Image {
     @include skeletion();
     width: 250px;
     height: 100%;
     margin-right: 40px;
+    @media screen and (max-width: 767px) { 
+      width: 100px;
+      margin-right: 20px;
+    }
   }
 
   .BlogItemLoader__Body{
