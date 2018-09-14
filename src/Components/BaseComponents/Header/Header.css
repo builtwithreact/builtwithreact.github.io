@@ -1,6 +1,8 @@
 .HeaderContainer {
   background-color: #1c1d21;
-  height: 60px; }
+  height: 60px;
+  position: fixed;
+  width: 100%; }
   .HeaderContainer.HeaderContainer__Sticky {
     position: fixed;
     width: 100%;

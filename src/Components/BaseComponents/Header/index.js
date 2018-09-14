@@ -25,15 +25,15 @@ class Header extends Component {
 
     }
 
-    componentDidMount() {
-        document.addEventListener('scroll', (e) => {
-            if (window.scrollY > 60) {
-                this.setState({ stickyHeader: true });
-            } else {
-                this.setState({ stickyHeader: false });
-            }
-        })
-    }
+    // componentDidMount() {
+    //     document.addEventListener('scroll', (e) => {
+    //         if (window.scrollY > 60) {
+    //             this.setState({ stickyHeader: true });
+    //         } else {
+    //             this.setState({ stickyHeader: false });
+    //         }
+    //     })
+    // }
     render() {
         const navitems = CONSTANTS.NAV_ITEMS
         return (
