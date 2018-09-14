@@ -1,12 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-// import { shallow } from 'enzyme';
 import TileContainer from './../index';
+jest.mock('./../../Tile', () => 'Tile')
 
-describe('TileContainer', ()=>{
-    it('renders correctly', ()=>{
+describe('<TileContainer />', () => {
+    it('should render correctly', () => {
         let tree = renderer.create(
-            <TileContainer  />
+            <TileContainer />
         ).toJSON();
         expect(tree).toMatchSnapshot();
     });
